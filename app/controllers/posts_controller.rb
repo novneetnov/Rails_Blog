@@ -5,13 +5,13 @@ class PostsController < ApplicationController
 	end
 
 	def new
-		#@post = Post.new
+		@post = Post.new
 	end
 
 	def create
 		@post = Post.new(post_params)
 		if @post.save
-			redirect_to @post
+			redirect_to @post, notice: "New Post successfully created." 
 		else
 			render 'new'
 		end
