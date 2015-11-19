@@ -2,9 +2,9 @@
 	<div class="post_wrapper">
 		<h2 class="title"><%= link_to post.title, post %></h2>
 		<p class="body">
-			<%= truncate(post.body, length: 99) %>  
+			<%= truncate(post.body, length: 99) %>     
 			<% if post.body.length > 99 %>
-				<%= link_to "More", post %>
+				<%= link_to "Read More", post %>
 			<% end %>	
 		</p>
 		<p class="date">
