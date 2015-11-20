@@ -1,0 +1,35 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Blog
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+Blog	config/application.rb	/^module Blog$/;"	m
+Comment	app/models/comment.rb	/^class Comment < ActiveRecord::Base$/;"	c
+CommentTest	test/models/comment_test.rb	/^class CommentTest < ActiveSupport::TestCase$/;"	c
+CommentsController	app/controllers/comments_controller.rb	/^class CommentsController < ApplicationController$/;"	c
+CommentsControllerTest	test/controllers/comments_controller_test.rb	/^class CommentsControllerTest < ActionController::TestCase$/;"	c
+CommentsHelper	app/helpers/comments_helper.rb	/^module CommentsHelper$/;"	m
+CreateComments	db/migrate/20151120095351_create_comments.rb	/^class CreateComments < ActiveRecord::Migration$/;"	c
+CreatePosts	db/migrate/20151119060457_create_posts.rb	/^class CreatePosts < ActiveRecord::Migration$/;"	c
+Post	app/models/post.rb	/^class Post < ActiveRecord::Base$/;"	c
+PostTest	test/models/post_test.rb	/^class PostTest < ActiveSupport::TestCase$/;"	c
+PostsController	app/controllers/posts_controller.rb	/^class PostsController < ApplicationController$/;"	c
+PostsControllerTest	test/controllers/posts_controller_test.rb	/^class PostsControllerTest < ActionController::TestCase$/;"	c
+PostsHelper	app/helpers/posts_helper.rb	/^module PostsHelper$/;"	m
+change	db/migrate/20151119060457_create_posts.rb	/^  def change$/;"	f	class:CreatePosts
+change	db/migrate/20151120095351_create_comments.rb	/^  def change$/;"	f	class:CreateComments
+create	app/controllers/comments_controller.rb	/^	def create$/;"	f	class:CommentsController
+create	app/controllers/posts_controller.rb	/^	def create$/;"	f	class:PostsController
+destroy	app/controllers/comments_controller.rb	/^	def destroy$/;"	f	class:CommentsController
+destroy	app/controllers/posts_controller.rb	/^	def destroy$/;"	f	class:PostsController
+edit	app/controllers/posts_controller.rb	/^	def edit$/;"	f	class:PostsController
+index	app/controllers/posts_controller.rb	/^	def index$/;"	f	class:PostsController
+new	app/controllers/posts_controller.rb	/^	def new$/;"	f	class:PostsController
+post_params	app/controllers/posts_controller.rb	/^	def post_params$/;"	f	class:PostsController
+show	app/controllers/posts_controller.rb	/^	def show$/;"	f	class:PostsController
+update	app/controllers/posts_controller.rb	/^	def update$/;"	f	class:PostsController
